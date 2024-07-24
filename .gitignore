@@ -1,3 +1,6 @@
+# built assets
+dist/
+
 # generated types
 .astro/
 
