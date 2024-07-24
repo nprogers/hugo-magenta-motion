@@ -32,4 +32,5 @@ jobs:
         run: | 
           echo ${{ steps.pages_deploy.outputs.url }}
           echo ${{ steps.pages_deploy.outputs.id }}
+          echo ${{ steps.pages_deploy.outputs.alias }}
           echo $TEST
