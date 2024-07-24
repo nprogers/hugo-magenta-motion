@@ -1,5 +1,8 @@
 on: [push]
 
+env:
+  TEST: "test" 
+
 jobs:
   publish:
     runs-on: ubuntu-latest
@@ -26,4 +29,6 @@ jobs:
           directory: dist
 
       - name: output
-        run: echo ${{ steps.pages_deploy.outputs.url }}
+        run: | 
+          echo ${{ steps.pages_deploy.outputs.url }}
+          echo $TEST
