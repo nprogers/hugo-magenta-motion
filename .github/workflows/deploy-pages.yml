@@ -31,4 +31,5 @@ jobs:
       - name: output
         run: | 
           echo ${{ steps.pages_deploy.outputs.url }}
+          echo ${{ steps.pages_deploy.outputs.id }}
           echo $TEST
