@@ -19,4 +19,4 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: 1a9df9d4f6cd820cbcd2c8f76e3b445a
           projectName: astro-magenta-motion
-          directory: :dist
+          directory: dist
