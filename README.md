@@ -1,4 +1,4 @@
-# Astro Starter Kit: Basics - boop
+# Astro Starter Kit: Basics - boopdsafdsafds
 
 ```sh
 npmmmmm create astro@latest -- --template basics
